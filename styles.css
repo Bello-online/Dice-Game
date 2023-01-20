@@ -1,0 +1,117 @@
+/*
+*** Author: Bello Olaseni.
+*** Date: July 11th, 2022.
+*** This is the css file for the webpage of Assignment 4. 
+*** Website has been made responsive. Also contains some custom animations
+*/
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background-color: black;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: gold;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(185, 192, 255);
+    text-align: center;
+  }
+  
+  #button{
+    background-color: rgb(185, 255, 193);
+  }
+
+  table, th, td {
+    color: gold;
+    border: 1px solid gold;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  #table{
+    Margin-left: auto;
+    Margin-right: auto;
+
+  }
+  ul{
+    color: gold;
+  }
+
+  ul #rules{
+    list-style-type: none;
+  }
+
+  .help{
+    color: gold;
+  }
+
+  form{
+    background-color: #40538C;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    margin-bottom: 1.5%;
+  }
+
+  h1{
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    50% {background-color: burlywood; color: white;}
+    100%{background-color: white; color: burlywood;}
+}
+
+.name{
+    animation-name: fontChange;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes fontChange {
+    50% {font-size: larger; font-weight: bolder;}
+    100%{font-size: x-large; font-weight: bold;}
+    
+}
